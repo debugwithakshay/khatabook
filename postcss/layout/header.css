@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  height: 25rem;
+  background-image: url(/assets/header-bg-image.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+}

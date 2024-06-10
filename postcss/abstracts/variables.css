@@ -1,0 +1,16 @@
+$pure-black: #000;
+$pure-white: #fff;
+$gray-darkest: #1a1a1a;
+$gray-darker: #333333;
+$gray-dark: #4d4d4d;
+$gray-lighter: #808080;
+$gray-light: #666;
+$accent-blue: #7b4dff;
+
+$pad-smallest: 2px;
+$pad-extrasmall: 0.5rem;
+$pad-small: 0.8rem;
+$pad-medium: 1.2rem;
+$pad-large: 2rem;
+$pad-extralarge: 3.2rem;
+$pad-huge: 5rem;

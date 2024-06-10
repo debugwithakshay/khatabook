@@ -1,2 +1,3 @@
-@import url("./abstracts/variable.css");
+@import url("./abstracts/variables.css");
+@import url("./layout/header.css");
 @import url("./base/reset.css");
