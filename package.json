@@ -4,8 +4,8 @@
   "description": "An Online Personal book to track Your Finance",
   "main": "index.js",
   "scripts": {
-    "postcss:build:css": "postcss postcss/main.css -o stylesheet/style.css",
-    "postcss:watch:css": "postcss postcss/main.css -o stylesheet/style.css -w"
+    "postcss:build:css": "postcss postcss/source.css -o stylesheet/style.css",
+    "postcss:watch:css": "postcss postcss/source.css -o stylesheet/style.css -w"
   },
   "author": "",
   "license": "ISC",

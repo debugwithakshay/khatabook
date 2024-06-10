@@ -5,6 +5,10 @@
 @import url("./base/typography.css");
 
 @import url("./components/navbar.css");
+@import url("./components/card.css");
 
 @import url("./layout/header.css");
 @import url("./layout/main.css");
+
+
+@import url("./pages/amount.css");

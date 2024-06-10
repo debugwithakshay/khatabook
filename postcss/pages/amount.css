@@ -1,0 +1,46 @@
+.amount-section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .card {
+    div {
+      display: flex;
+      align-items: center;
+      font-family: "Poppins-medium";
+      color: $pure-white;
+
+      img {
+        width: 2rem;
+      }
+
+      .amount-name {
+        font-size: $text-medium;
+        margin-left: 0.8rem;
+      }
+
+      .amount-tag {
+        font-family: "Poppins-medium";
+        font-size: $text-small;
+        color: rgb(255, 255, 255);
+        background-color: $gray-dark;
+        padding: $pad-extrasmall;
+        border-radius: 1rem;
+        margin-left: 0.8rem;
+      }
+
+      .more {
+        margin-left: 2.5rem;
+        width: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .amount {
+      font-family: "Poppins-medium";
+      color: $pure-white;
+      font-size: $text-medium;
+    }
+  }
+}

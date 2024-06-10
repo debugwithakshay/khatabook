@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Khatabook is a tool for managing all yoour expenses"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="follow, index" />
     <title>📘 Khatabook - Total Account</title>
 
     <!-- stylesheet -->
@@ -10,12 +16,10 @@
   </head>
   <body>
     <div class="main-container">
+
+      <!-- header -->
       <header class="header">
-        <img
-          src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f4b5.svg"
-          alt="header-icon"
-          class="header-icon"
-        />
+        <img src="assets/money.svg" alt="header-icon" class="header-icon" />
         <nav class="navbar">
           <ul>
             <li><a href="#" class="selected">Amount</a></li>
@@ -28,12 +32,61 @@
           </ul>
         </nav>
       </header>
+
+      <!-- main -->
       <main class="main">
 
+        <!-- amount-section -->
+        <section class="amount-section">
+
+          <article class="card">
+            <div>
+              <img src="assets/credit-card.svg" alt="credit-card" />
+              <h1 class="amount-name">Axis Bank</h1>
+              <span class="amount-tag">Digital</span>
+              <img src="assets/more-horizontal.svg" alt="more" class="more">
+            </div>
+            <span class="amount">$150,000</span>
+          </article>
+
+
+          <article class="card">
+            <div>
+              <img src="assets/piggy-bank.svg" alt="piggy-bank" />
+              <h1 class="amount-name">Cash Saving</h1>
+              <span class="amount-tag">Physical</span>
+              <img src="assets/more-horizontal.svg" alt="more" class="more">
+            </div>
+            <span class="amount">$23,000</span>
+          </article>
+
+
+          <article class="card">
+            <div>
+              <img src="assets/gold-bar.svg" alt="gold" />
+              <h1 class="amount-name">Assets</h1>
+              <span class="amount-tag">Physical</span>
+              <img src="assets/more-horizontal.svg" alt="more" class="more">
+            </div>
+            <span class="amount">$20,000</span>
+          </article>
+
+          <article class="card">
+            <div>
+              <img src="assets/bitcoin.svg" alt="crypto" />
+              <h1 class="amount-name">Crypto</h1>
+              <span class="amount-tag">Digital</span>
+              <img src="assets/more-horizontal.svg" alt="more" class="more">
+            </div>
+            <span class="amount">$16,000</span>
+          </article>
+
+
+        </section>
       </main>
     </div>
 
     <!-- scripts -->
-     <script src="scripts/tab_switch.js"></script>
+    <script src="scripts/tab_switch.js"></script>
   </body>
 </html>
