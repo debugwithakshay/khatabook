@@ -1,11 +1,3 @@
-.header {
-  width: 100%;
-  height: 25rem;
-  background-image: url(/assets/header-bg-image.jpeg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 1rem;
-}
 *,
 *::after,
 *::before {
@@ -22,6 +14,93 @@ body {
   padding: 1.2rem;
 }
 .main-container{
-  width: 100%;
+  max-width: 140rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* fonts */
+@font-face {
+  font-family: "Poppins-black";
+  src: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "Poppins-extrabold";
+  src: url(/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-medium";
+  src: url(/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-extralight";
+  src: url(/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Poppins-light";
+  src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+.header .navbar {
+    position: absolute;
+    padding: 2rem 3.2rem;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+    background-color: #1a1a1a;
+    border-radius: 0.5rem;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header .navbar ul {
+    display: flex;
+    gap: 3rem;
+  }
+.header .navbar ul li {
+      list-style: none;
+    }
+.header .navbar ul li a {
+        text-decoration: none;
+        font-family: "Poppins-bold";
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+      }
+.header .navbar ul li .selected{
+        background-color: #fff !important;
+        color: #000 !important;
+      }
+.header .navbar ul li a:hover{
+        background-color: #333333;
+      }
+.header {
+  width: 100%;
+  height: 25rem;
+  background-image: url(/assets/header-bg-image.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  position: relative;
+}
+/* header -icon */
+.header .header-icon {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -2rem;
+    left: 17%;
+    transform: rotate(12deg);
+  }
+main {
+  width: 90%;
+  height: 30rem;
+  border: 2px solid #fff;
+  align-self: center;
+  margin-top: 8rem;
 }

@@ -1,0 +1,41 @@
+.header {
+  .navbar {
+    position: absolute;
+    padding: $pad-large $pad-extralarge;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+    background-color: $gray-darkest;
+    border-radius: 0.5rem;
+    z-index: 999;
+    @mixin flex-center;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 3rem;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        font-family: "Poppins-bold";
+        color: $pure-white;
+        font-size: $text-medium;
+        padding: $pad-small;
+        border-radius: 0.5rem;
+      }
+
+      .selected{
+        background-color: $pure-white !important;
+        color: $pure-black !important;
+      }
+
+
+      a:hover{
+        background-color: $gray-darker;
+      }
+    }
+  }
+}

@@ -1,3 +1,10 @@
+@import url("./abstracts/mixins.css");
 @import url("./abstracts/variables.css");
-@import url("./layout/header.css");
+
 @import url("./base/reset.css");
+@import url("./base/typography.css");
+
+@import url("./components/navbar.css");
+
+@import url("./layout/header.css");
+@import url("./layout/main.css");

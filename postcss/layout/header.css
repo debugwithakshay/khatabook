@@ -5,4 +5,15 @@
   background-position: center;
   background-size: cover;
   border-radius: 1rem;
+  position: relative;
+
+  /* header -icon */
+  .header-icon {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    bottom: -2rem;
+    left: 17%;
+    transform: rotate(12deg);
+  }
 }
