@@ -9,7 +9,7 @@
     <script>
       localStorage.setItem("lastPage", "/dashboard/investment");
 
-      if (window.location.pathname === "/dashboard/investment/") {
+      if (window.location.pathname === "/dashboard/investment") {
         history.pushState(null, "", "/");
         location.reload();
       }
