@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📘 Khatabook - Amount</title>
+  </head>
+  <body style="background-color: #000">
+    <script>
+      localStorage.setItem("lastPage", "/dashboard/amount");
+
+      if (window.location.pathname === "/dashboard/amount/") {
+        history.pushState(null, "", "/");
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
